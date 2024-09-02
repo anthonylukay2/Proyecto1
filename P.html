@@ -1,3 +1,79 @@
-<h1>hola proyecto 1</h1>
-<h1>hola mundo</h1>
-<h2>hola proyecto Y</h2>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gomitas Goomy - Gomitas del mundo Pokémon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Banner -->
+    <section>
+        <div class="container text-center">
+            <h1>Gomitas Goomy</h1>
+            <p>Gomitas del mundo Pokémon</p>
+            <a href="#catalogo" class="btn btn-primary">Explorar catálogo</a>
+        </div>
+    </section>
+
+    <!-- Catálogo -->
+    <section id="catalogo" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Catálogo de Productos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <img src="imagen-gomita-mango.jpg" alt="Gomitas de Mango con Chile">
+                        <h3>Gomitas de Mango con Chile</h3>
+                        <p>¡La combinación perfecta de dulce y picante!</p>
+                        <p><strong>$10 MXN X bolsita </strong></p>
+                    </div>
+                </div>
+                <!-- Añadir más productos aquí -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Historia del Negocio -->
+    <section>
+        <div class="container">
+            <h2 class="text-center mb-4">Nuestra Historia</h2>
+            <p>Gomitas Goomy nació de la necesidad de apoyo económico para la familia, comenzando las ventas en el Centro Universitario de Ciencias Exactas e Ingenierías con una hielera y evolucionando hasta convertirse en un pequeño negocio.</p>
+        </div>
+    </section>
+
+
+    <!-- Proceso del Pedido -->
+    <section>
+        <div class="container">
+            <h2 class="text-center mb-4">Cómo Comprar</h2>
+            <p>¡Hacer un pedido en Gomitas Goomy es muy fácil! Explora nuestro catálogo, selecciona tus gomitas favoritas, y envíanos un mensaje a través de nuestro formulario de contacto. Aceptamos pagos por transferencia bancaria.</p>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section>
+        <div class="container">
+            <h2 class="text-center mb-4">Contáctanos</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
