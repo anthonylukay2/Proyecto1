@@ -4,17 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gomitas Goomy - Gomitas del mundo Pokémon</title>
-    <img src="image/goomy.jpg" alt="goomy" class="img-fluid d-block mx-auto">
+    <link rel="icon" href="image/pngwing.com.png" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Gomitas Goomy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#catalogo">Catálogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#historia">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Imagen principal -->
+    <img src="image/goomy.jpg" alt="Goomy" class="img-fluid d-block mx-auto my-4">
+
     <!-- Banner -->
-    <section>
+    <section class="py-5">
         <div class="container text-center">
             <h1>Gomitas Goomy</h1>
             <p>Gomitas del mundo Pokémon</p>
-            <a href="#catalogo" class="btn btn-primary">Explorar catálogo</a>
         </div>
     </section>
 
@@ -23,29 +48,65 @@
         <div class="container">
             <h2 class="text-center mb-4">Catálogo de Productos</h2>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 mb-4">
                     <div class="text-center">
                         <img src="image/mangoconchile.jpg" alt="Gomitas de Mango con Chile" class="img-fluid d-block mx-auto">
                         <h3>Gomitas de Mango con Chile</h3>
                         <p>¡La combinación perfecta de dulce y picante!</p>
-                        <p><strong>$10 MXN X bolsita </strong></p>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="text-center">
-                        <img src="image/fruta.jpg" alt="Gomitas de Fruta con azucar" class="img-fluid d-block mx-auto">
-                        <h3>Gomitas de Fruta con azucar</h3>
-                        <p>Dulces de azucar con sabor frutal.</p>
                         <p><strong>$10 MXN X bolsita</strong></p>
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 mb-4">
+                    <div class="text-center">
+                        <img src="image/fruta.jpg" alt="Gomitas de Fruta con azúcar" class="img-fluid d-block mx-auto">
+                        <h3>Gomitas de Fruta con azúcar</h3>
+                        <p>Dulces de azúcar con sabor frutal.</p>
+                        <p><strong>$10 MXN X bolsita</strong></p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
                     <div class="text-center">
                         <img src="image/Durazno.jpg" alt="Gomitas de Aros de Durazno" class="img-fluid d-block mx-auto">
-                        <h3>Gomitas de Aors de Durazno</h3>
+                        <h3>Gomitas de Aros de Durazno</h3>
                         <p>Aros divertidos sabor Durazno.</p>
+                        <p><strong>$10 MXN X bolsita</strong></p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="text-center">
+                        <img src="image/manzana.jpg" alt="Gomitas de Aros de Manzana" class="img-fluid d-block mx-auto">
+                        <h3>Gomitas de Aros de Manzana</h3>
+                        <p>Aros divertidos sabor Manzana.</p>
+                        <p><strong>$10 MXN X bolsita</strong></p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="text-center">
+                        <img src="image/pandas.jpg" alt="Gomitas de Panditas" class="img-fluid d-block mx-auto">
+                        <h3>Gomitas de Panditas</h3>
+                        <p>Gomitas clásicas en forma de panditas.</p>
+                        <p><strong>$10 MXN X bolsita</strong></p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="text-center">
+                        <img src="image/gusanos.jpg" alt="Gomitas de gusanitos" class="img-fluid d-block mx-auto">
+                        <h3>Gomitas de gusanitos</h3>
+                        <p>Gomitas clásicas en forma de gusanitos.</p>
+                        <p><strong>$10 MXN X bolsita</strong></p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="text-center">
+                        <img src="image/tiburones.jpg" alt="Gomitas de Tiburones azules" class="img-fluid d-block mx-auto">
+                        <h3>Gomitas de Tiburones azules</h3>
+                        <p>Gomitas en forma de tiburones azules.</p>
                         <p><strong>$10 MXN X bolsita</strong></p>
                     </div>
                 </div>
@@ -55,16 +116,15 @@
     </section>
 
     <!-- Historia del Negocio -->
-    <section>
+    <section id="historia" class="py-5">
         <div class="container">
             <h2 class="text-center mb-4">Nuestra Historia</h2>
             <p>Gomitas Goomy nació de la necesidad de apoyo económico para la familia, comenzando las ventas en el Centro Universitario de Ciencias Exactas e Ingenierías con una hielera y evolucionando hasta convertirse en un pequeño negocio.</p>
         </div>
     </section>
 
-
     <!-- Proceso del Pedido -->
-    <section>
+    <section class="py-5">
         <div class="container">
             <h2 class="text-center mb-4">Cómo Comprar</h2>
             <p>¡Hacer un pedido en Gomitas Goomy es muy fácil! Explora nuestro catálogo, selecciona tus gomitas favoritas, y envíanos un mensaje a través de nuestro formulario de contacto. Aceptamos pagos por transferencia bancaria.</p>
@@ -72,26 +132,42 @@
     </section>
 
     <!-- Contacto -->
-    <section>
+    <section id="contacto" class="py-5">
         <div class="container">
             <h2 class="text-center mb-4">Contáctanos</h2>
-            <form>
+            <form novalidate>
                 <div class="mb-3">
                     <label for="name" class="form-label">Nombre</label>
                     <input type="text" class="form-control" id="name" required>
+                    <div class="invalid-feedback">
+                        Por favor, introduce tu nombre.
+                    </div>
                 </div>
                 <div class="mb-3">
                     <label for="email" class="form-label">Correo Electrónico</label>
                     <input type="email" class="form-control" id="email" required>
+                    <div class="invalid-feedback">
+                        Por favor, introduce un correo electrónico válido.
+                    </div>
                 </div>
                 <div class="mb-3">
                     <label for="message" class="form-label">Mensaje</label>
                     <textarea class="form-control" id="message" rows="3" required></textarea>
+                    <div class="invalid-feedback">
+                        Por favor, escribe un mensaje.
+                    </div>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
         </div>
     </section>
+
+    <!-- Pie de página -->
+    <footer class="bg-light py-4">
+        <div class="container text-center">
+            <p class="mb-0">© 2024 Gomitas Goomy. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
